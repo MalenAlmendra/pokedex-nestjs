@@ -40,3 +40,10 @@ localhost:3000/api/v2/seed
 
 * MongoDB
 * Nest
+
+# Notas
+Heroku redeploy sin cambios:
+```
+git commit --allow-empty -m "Trigger heroku deploy"
+git push heroku <branch>
+```
